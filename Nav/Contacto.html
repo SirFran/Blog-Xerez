@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="Blog sobre el Xerez Deportivo FC con noticias, fichajes, resultados, historia y análisis del equipo de Jerez.">
+          <meta name="author" content="Francisco de Paula Peña Mera">
+          <title>Xerez Deportivo Futbol Club</title>
+          <link rel="stylesheet" href="../ccs/Estilos.css">
+    </head>
+
+    <body>
+
+            <!-- CABECERA -->
+
+              <header class="cabecera">
+
+                      <a href="../index.html"> <img src="../Imagenes/xer.png" alt="Logo Xerez" class="logo"></a>
+
+                      <h1>Xerez Deportivo Futbol Club</h1>
+                      
+            <!-- MENÚ DE NAVEGACIÓN -->
+                  
+                 <ul class="menu">
+              
+                        <li class="dropdown"> <a href="./Actualidad.html">ACTUALIDAD</a>
+                       
+                              <ul class="submenu">
+
+                                          <li> <a href="./SubMenu/Primer_Equipo/CampSocio.html">CAMPAÑA DE SOCIOS</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Fichajes.html">FICHAJES</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Calendario.html">CALENDARIO 25/26</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Clasificación.html">CLASIFICACIÓN</a> </li>
+                              </ul>                      
+                        </li>
+             
+                        <li> <a href="./La_Aficion.html">AFICIÓN</a> </li>
+
+                        <li class="dropdown"> <a href="./El_Club.html">EL CLUB</a>
+                              
+                              <ul class="submenu">
+
+                                    <li> <a href="./SubMenu/El_Club/Historia.html">HISTORIA</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/La_Fundación.html">LA FUNDACIÓN</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/Peñas.html">PEÑAS</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/Mascota.html">MASCOTA</a> </li>
+                              </ul>
+                        </li>
+
+                        <li> <a href="./Contacto.html">CONTACTO</a> </li>
+              
+                  </ul>
+
+              </header>
+
+            <!-- CONTENIDO PRINCIPAL Y LATERAL -->
+
+              <main class="container">
+                
+                    <div class="contenido">
+                         
+                         <p id="inicio"></p> 
+                       
+                        <h1>Contacto</h1>
+                        
+                        <p>¿Quieres aportar o corregir algo al Blog? No dudes en contactar atraves del siguiente formulario:</p>
+                    
+                        <form action="">
+
+                        <fieldset>
+
+                           <legend>Datos personales</legend>
+            
+                           <div class="distribucion-form">
+
+                               <div>
+                                    <label for="Nombre">Nombre</label>
+
+                                    <input
+                                       type="text"
+                                       name="nombre"
+                                       placeholder="Tu nombre"
+                                       pattern="^[A-Z a-z À-ÿ\s]+$" 
+                                       required
+                                    >
+                               </div>
+            
+                               <div>
+                                    <label for="Apellidos">Apellidos</label>
+                                  
+                                    <input
+                                       type="text"
+                                       name="apellidos"
+                                       placeholder="Tus apellidos" 
+                                       pattern="^[A-Z a-z À-ÿ\s]+$" 
+                                       required
+                                    >
+                               </div>
+            
+                               <div>
+                                    <label for="DNI">DNI</label>
+                                   
+                                    <input
+                                       type="text"
+                                       id="DNI"
+                                       name="DNI" 
+                                       pattern="^\d{8}[A-Z a-z]$"
+                                       title="Debe contener DNI" 
+                                       required 
+                                       placeholder="ej. 32461476X">
+                               </div>
+
+                           </div>
+
+                        </fieldset>
+        
+                        <fieldset>
+           
+            <legend>Datos de contacto</legend>
+            <div class="distribucion-form">
+                <div class="interior">
+            <label for="Telefono">Teléfono</label>
+            <input type="tel" name="telefono" 
+                pattern="^\d{9}$" required placeholder="ej. 601807925">
+                </div>
+                <div>
+            <label for="email">Email</label>
+            <input type="email" 
+            name="email" required placeholder="Introduce una dirreción de correo valida"
+            style="width: 20vw;">
+            </div>
+            </div>
+            <div class="desplegable">
+            <label for="preferencia">¿Por dónde prefieres ser contactado?</label>          
+            <br>
+            <select name="Contacto" id="preferencia" style="margin-top: 7px;">
+                <option value="Indiferente">Indiferente</option>
+                <option value="Teléfono">Teléfono</option>
+                <option value="Correo">Correo</option>
+            </select>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Cuentame sobre tu idea</legend>
+            <textarea name="" id="" maxlength="900" rows="10" 
+                placeholder="Describe tu idea en 900 caracteres como máximo"></textarea>
+        </fieldset>
+
+        
+        <input type="submit" value="Enviar">
+       </form> 
+
+                    </div>
+
+                    <aside class="sidebar">
+                
+                         <h2 style="text-align: center;">Actualidad</h2>
+                         <br>
+                         <ul>
+                             <li> <a href="Actualidad.html">&#9656; ACTUALIDAD</a></li>
+                             <li> <a href="La_Aficion.html">&#9656; AFICIÓN</a></li>
+                             <li> <a href="El_Club.html">&#9656; EL CLUB</a></li>
+                             <li> <a href="Contacto.html">&#9656; CONTACTO</a></li>
+                         </ul>
+
+                    </aside>
+
+              </main>
+
+            <!-- PIE DE PÁGINA -->
+             
+              <footer class="footerenlinea">
+
+                  <div class="derechafooter">
+                      <p>&copy; 2025 - Sitio Web de Francisco Peña Mera</p>
+                      <p>Todos los derechos reservados.</p>
+                  </div>
+
+                  <div class="izquierdafooter">
+                      <a href="#inicio" title="Volver al inicio">
+                         <img src="../Imagenes/flecha_arriba.svg" alt="flecha">
+                      </a>
+                  </div>
+
+              </footer>
+
+              <script src="../javascript.js"></script>
+              
+    </body>
+
+</html>

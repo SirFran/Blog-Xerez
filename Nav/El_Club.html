@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="Blog sobre el Xerez Deportivo FC con noticias, fichajes, resultados, historia y análisis del equipo de Jerez.">
+          <meta name="author" content="Francisco de Paula Peña Mera">
+          <title>Xerez Deportivo Futbol Club</title>
+          <link rel="stylesheet" href="../ccs/Estilos.css">
+    </head>
+
+    <body>
+
+            <!-- CABECERA -->
+
+              <header class="cabecera">
+
+                      <a href="../index.html"> <img src="../Imagenes/xer.png" alt="Logo Xerez" class="logo"></a>
+
+                      <h1>Xerez Deportivo Futbol Club</h1>
+                      
+            <!-- MENÚ DE NAVEGACIÓN -->
+                  
+                 <ul class="menu">
+              
+                        <li class="dropdown"> <a href="./Actualidad.html">ACTUALIDAD</a>
+                       
+                              <ul class="submenu">
+
+                                          <li> <a href="./SubMenu/Primer_Equipo/CampSocio.html">CAMPAÑA DE SOCIOS</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Fichajes.html">FICHAJES</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Calendario.html">CALENDARIO 25/26</a> </li>
+                                          <li> <a href="./SubMenu/Primer_Equipo/Clasificación.html">CLASIFICACIÓN</a> </li>
+                              </ul>                      
+                        </li>
+             
+                        <li> <a href="./La_Aficion.html">AFICIÓN</a> </li>
+
+                        <li class="dropdown"> <a href="./El_Club.html">EL CLUB</a>
+                              
+                              <ul class="submenu">
+
+                                    <li> <a href="./SubMenu/El_Club/Historia.html">HISTORIA</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/La_Fundación.html">LA FUNDACIÓN</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/Peñas.html">PEÑAS</a> </li>
+                                    <li> <a href="./SubMenu/El_Club/Mascota.html">MASCOTA</a> </li>
+                              </ul>
+                        </li>
+
+                        <li> <a href="./Contacto.html">CONTACTO</a> </li> 
+              
+                  </ul>
+
+              </header>
+
+            <!-- CONTENIDO PRINCIPAL Y LATERAL -->
+
+              <main class="container">
+                
+                    <div class="contenido">
+                         
+                         <p id="inicio"></p> 
+                       
+                        <h2>Campaña de Socios 2025-26: El Xerez que quieres TÚ</h2>
+
+                        <button class="btn-campaña" onclick="mostrarIframe()">
+                              
+                              <p>Ver Campaña</p>
+                        
+                        </button>
+                        
+                        <iframe id="iframeCampaña" class="ifroculto" src="" frameborder="0" width="100%" height="600px"></iframe>
+
+                    </div>
+
+                    <aside class="sidebar">
+                
+                         <h2 style="text-align: center;">Actualidad</h2>
+                         <br>
+                         <ul>
+                             <li> <a href="./SubMenu/Primer_Equipo/CampSocio.html">&#9656; CAMPAÑA DE SOCIOS</a></li>
+                             <li> <a href="./SubMenu/Primer_Equipo/Fichajes.html">&#9656; FICHAJES</a></li>
+                             <li> <a href="./SubMenu/Primer_Equipo/Calendario.html">&#9656; CALENDARIO 25/26</a></li>
+                             <li> <a href="./SubMenu/Primer_Equipo/Clasificación.html">&#9656; CLASIFICACIÓN</a></li>
+                         </ul>
+
+                    </aside>
+
+              </main>
+
+            <!-- PIE DE PÁGINA -->
+
+              <footer class="footerenlinea">
+
+                  <div class="derechafooter">
+                      <p>&copy; 2025 - Sitio Web de Francisco Peña Mera</p>
+                      <p>Todos los derechos reservados.</p>
+                  </div>
+
+                  <div class="izquierdafooter">
+                      <a href="#inicio" title="Volver al inicio">
+                         <img src="../Imagenes/flecha_arriba.svg" alt="flecha">
+                      </a>
+                  </div>
+
+              </footer>
+
+              <script src="../javascript.js"></script>
+
+    </body>
+
+</html>
